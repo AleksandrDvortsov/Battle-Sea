@@ -1,0 +1,109 @@
+body{
+    background-image: url("https://www.oneseaecosystem.net/wp-content/uploads/sites/2/2017/03/onesea_banner_1-1-2000x1339.jpg");
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+td, th {
+    width: 50px;
+    min-width: 50px;
+    max-width: 50px;
+
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+}
+
+td {
+    /*background: white;*/
+    background-color: rgb(153, 204, 255);
+}
+
+#table_1 {
+    position: absolute;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    left: 100px;
+    top: 150px;
+    background-color: rgb(204, 255, 255);
+    pointer-events: none;
+}
+
+#table_2 {
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    background-color: rgb(204, 255, 255);
+    pointer-events: none;
+}
+.textUsers{
+    display: block;
+}
+#reset{
+    position: absolute;
+    top: 500px;
+    left: 0px;
+}
+#divAnswerToServer{
+    position: absolute;
+    top: 70px;
+    left: 100px;
+
+}
+.btnStart {
+    position: absolute;
+    top: 30px;
+    width: 300px;
+}
+
+
+.btnStart .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: red;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btnStart .btn:hover {
+    background-color: rgb(153, 204, 255);
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonOK {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.buttonOK:hover {
+    background-color: #008CBA;
+    color: white;
+}

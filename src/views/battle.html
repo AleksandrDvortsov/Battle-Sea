@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Battle</title>
+    <link rel="stylesheet" href="../public/css/cssBattleShip/style.css">
+
+</head>
+<body>
+<div class="btnStart">
+    <button id="startGame" class="btn" onclick="startGame()">Start Game</button>
+</div>
+
+<div id="divAnswerToServer">
+    <input type="text" id="answerToServer" value="Answer To Server" readonly>
+    <input type="text" id="clientText" value="">
+    <button id="ok" class="button buttonOK" onclick="ok()">Ok</button>
+    <!--<button id="reset" onclick="resset()">reset</button>-->
+</div>
+<p></p>
+<table id="table_1" onclick="clickTable1()">
+    <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td id="Mship1"></td>
+        <td id="Mship2"></td>
+        <td id="Mship3"></td>
+        <td id="Mship4"></td>
+        <td id="Mship5"></td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td id="Mship6"></td>
+        <td id="Mship7"></td>
+        <td id="Mship8"></td>
+        <td id="Mship9"></td>
+        <td id="Mship10"></td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td id="Mship11"></td>
+        <td id="Mship12"></td>
+        <td id="Mship13"></td>
+        <td id="Mship14"></td>
+        <td id="Mship15"></td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td id="Mship16"></td>
+        <td id="Mship17"></td>
+        <td id="Mship18"></td>
+        <td id="Mship19"></td>
+        <td id="Mship20"></td>
+    </tr>
+    <tr>
+        <th>5</th>
+        <td id="Mship21"></td>
+        <td id="Mship22"></td>
+        <td id="Mship23"></td>
+        <td id="Mship24"></td>
+        <td id="Mship25"></td>
+    </tr>
+</table>
+<table id="table_2" onclick="clickTable2()">
+    <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <td id="ship1"></td>
+        <td id="ship2"></td>
+        <td id="ship3"></td>
+        <td id="ship4"></td>
+        <td id="ship5"></td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <td id="ship6"></td>
+        <td id="ship7"></td>
+        <td id="ship8"></td>
+        <td id="ship9"></td>
+        <td id="ship10"></td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <td id="ship11"></td>
+        <td id="ship12"></td>
+        <td id="ship13"></td>
+        <td id="ship14"></td>
+        <td id="ship15"></td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <td id="ship16"></td>
+        <td id="ship17"></td>
+        <td id="ship18"></td>
+        <td id="ship19"></td>
+        <td id="ship20"></td>
+    </tr>
+    <tr>
+        <th>5</th>
+        <td id="ship21"></td>
+        <td id="ship22"></td>
+        <td id="ship23"></td>
+        <td id="ship24"></td>
+        <td id="ship25"></td>
+    </tr>
+</table>
+<script src="../public/jsBattleShip/postToClient.js"></script>
+</body>
+</html>
